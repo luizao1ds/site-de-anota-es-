@@ -1,0 +1,173 @@
+body{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    background-attachment: fixed;
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat; 
+    height: 0vh;
+    margin: 0px;
+  
+}
+
+.container {
+    max-width:  500px; 
+    background-color: white;
+    margin: 50px auto;
+    padding:  50px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+
+h1, h2, h3{ 
+    text-align: center;
+    color: darkblue;
+} 
+
+p {
+    text-align: left;
+    color: darkblue;
+}
+
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: darkblue;
+
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 3px solid darkblue;
+    font-size: 14px;
+    transition: border 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: blue;
+    outline: none;
+
+}
+
+
+textarea {
+    resize: none;
+}
+
+
+.btn {
+    display: block;
+    width: 100%;
+    margin: 20px auto 0;
+    padding: 12px;
+    background: darkblue;
+    border: none;
+    color: black;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.btn:hover {
+    background: blue;
+}
+
+.checkbox-group {
+    margin-top: 10px;
+    color: white;
+}
+
+
+.checkbox-group label {
+    font-weight: normal;
+    display: flex;
+    align-items: left;
+}
+
+
+.checkbox-group input {
+  width: auto;
+  margin-right: 10px;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.checkbox-group input:checked {
+  background-color: darkorange;
+  position: relative;
+}
+
+.checkbox-group input:checked::after {
+  content: "✔";
+  color: black;
+  position: absolute;
+  left: 4px;
+  top: -1px;
+  font-size: 16px;
+}
+
+
+.direitos-autorais {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px;
+    border-radius: 0px;
+    margin-top: 50px;
+}
+
+#conteudo-site {
+  flex: 1;
+}
+
+.tabela-estilizada {
+    width: 80%;
+    border-collapse: collapse;
+    background: darkorange;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 5px;
+    overflow: hidden; 
+    color:black;
+    text-align: center;
+    border:#1a1a1a solid 3px;
+    margin:auto;
+}
+  .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* espaço entre logo e texto */
+}
+
+.logo img {
+  display: block;
+  margin: 0 auto; /* centraliza a imagem */
+  width: 300px;  /* tamanho da logo */
+  height: 250px;
+}
+
+.observações {
+   width: 95%; 
+  height: 100px;
+}
+    
+
+
